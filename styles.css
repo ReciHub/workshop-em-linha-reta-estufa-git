@@ -1,0 +1,67 @@
+body {
+  flex: 1;
+  display: flex;
+  background-color: #f8f8ff;
+  color: #111111;
+  flex-direction: column;
+}
+
+.half-screen-container {
+  flex: 1;
+  display: flex;
+  height: 49vh;
+  overflow-x: auto;
+}
+
+.biggest-straight-line {
+  width: 100%;
+  margin-left: -4px;
+  border-radius: 8px;
+  border-top: 16px #333e41 solid;
+}
+
+.biggest-straight-line-container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.brennand-snake {
+  position: absolute;
+  z-index: 1;
+  height: 56px;
+  width: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #333e41;
+}
+
+.brennand-bottom {
+  left: 80px;
+}
+
+.brennand-top {
+  right: 100px;
+}
+
+.brennand-base {
+  z-index: 1;
+  height: 44px;
+  width: 24px;
+  background-color: #80604d;
+}
+
+.card {
+  margin: 48px 16px;
+  width: 20vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
